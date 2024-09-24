@@ -1,4 +1,3 @@
-import PageTwo from "../Page2/PageTwo";
 import { Link } from "react-router-dom";
 
 const Home = () => {
