@@ -1,0 +1,26 @@
+.home-header {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 50px;
+}
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.element-container {
+  width: 450px;
+  height: 243px;
+  background-color: rgb(130, 255, 130);
+}
+
+.element-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
