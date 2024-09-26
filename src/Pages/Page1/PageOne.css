@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Italiana&display=swap");
+
+.project-one-container {
+  display: flex;
+  justify-content: start;
+  max-width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.project-one-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.overlay-container {
+  margin: 25px;
+  position: absolute;
+  top: 20%;
+  width: 450px;
+  height: 491px;
+}
+
+.overlay-container h1 {
+  font-family: "Inter", sans-serif;
+  color: white;
+  text-shadow: 1px 1px 1px #ceb3c0;
+}
+
+.overlay-container p {
+  font-family: "Italiana", sans-serif;
+  color: white;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 450px;
+  height: 491px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  text-align: center;
+}
+
+.input-label {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  color: #333;
+}
+
+.input-text {
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #555;
+  text-align: left;
+}
+.input-field {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.input-field:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.calculate-btn {
+  padding: 12px;
+  font-size: 18px;
+  color: white;
+  background-color: #28a745; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.calculate-btn:hover {
+  background-color: #218838; 
+}
+
+.calculate-btn:active {
+  background-color: #1e7e34; 
+}
+
+.bmi-display {
+  margin-top: 20px;
+}
+
+.bmi-text {
+  font-size: 18px;
+  color: #333;
+}
+
+.bmi-value {
+  font-size: 32px;
+  font-weight: bold;
+  color: #007bff;
+}
